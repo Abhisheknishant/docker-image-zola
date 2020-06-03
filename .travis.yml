@@ -2,6 +2,9 @@ language: generic
 dist: bionic
 services:
   - docker
+arch: 
+    - amd64
+    - arm64
 env:
   global:
     - zola_version="0.11.0"
